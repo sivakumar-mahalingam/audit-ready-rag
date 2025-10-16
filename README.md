@@ -23,7 +23,7 @@ This repo shows how to build a **policy-aware, audit-ready RAG copilot** that ad
 banking-trust-observability-compliance/
 ├─ README.md                # This file
 ├─ requirements.txt         # Dependencies
-├─ .env.sample              # Example environment variables
+├─ .env.example             # Example environment variables
 ├─ app/
 │  ├─ server/               # FastAPI server
 │  │  └─ main.py
@@ -89,10 +89,10 @@ pip install -r requirements.txt
 
 ### 4. Configure environment variables
 
-Copy `.env.sample` → `.env` and fill in your keys:
+Copy `.env.example` → `.env` and fill in your keys:
 
 ```bash
-cp .env.sample .env
+cp .env.example .env
 ```
 
 `.env` contents:
